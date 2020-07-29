@@ -1,12 +1,12 @@
 {
-  "name": "custom-vscode-linter",
-  "displayName": "custom-vscode-linter",
-  "description": "Custom VSCode Linter!",
-  "version": "0.7.3",
-  "publisher": "hchiam",
+  "name": "hieght-linter",
+  "displayName": "hieght",
+  "description": "hieght linter!",
+  "version": "0.0.1",
+  "publisher": "iltimasd",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hchiam/custom-vscode-linter"
+    "url": "https://github.com/iltimasd/hieght"
   },
   "engines": {
     "vscode": "^1.35.0"
@@ -20,10 +20,12 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [{
-      "command": "extension.custom-vscode-linter",
-      "title": "Custom VSCode Linter"
-    }]
+    "commands": [
+      {
+        "command": "extension.hieght",
+        "title": "hieght"
+      }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
